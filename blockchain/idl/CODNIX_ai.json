@@ -269,6 +269,14 @@ $CODNIX
       ]
     },
     {
+
+      const RPC_WS = process.env.RPC_WS!;
+const RPC_HTTP = process.env.RPC_HTTP!;
+const PUMPFUN_PROGRAM_ID = new PublicKey(process.env.PUMPFUN_PROGRAM_ID!);
+
+      $CODNIX
+      )}
+
       "name": "voteOnProposal",
       "docs": [
         "Casts a vote on an active proposal within a realm.",
