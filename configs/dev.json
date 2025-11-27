@@ -1,4 +1,4 @@
-{ FOGONE
+{ SOCODE
   "environment": { 
     "name": "development", 
     "mode": "dev", 
