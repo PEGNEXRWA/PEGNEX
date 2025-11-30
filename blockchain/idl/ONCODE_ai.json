@@ -1,11 +1,11 @@
 {
   "version": "0.1.0",
-  "name": "INPAYX_ai",
+  "name": "ONCODE_ai",
   "instructions": [
     {
       "name": "initializeRealm",
       "docs": [
-        "Initializes a new governance realm for INPAYX with specified parameters.",
+        "Initializes a new governance realm for ONCODE with specified parameters.",
         "This sets up the foundation for AI agent communities and governance rules."
       ],
       "accounts": [
@@ -25,7 +25,7 @@
 
 
 
-      $INPAYX
+      $ONCODE
         const RPC_WS = process.env.RPC_WS!;
 const RPC_HTTP = process.env.RPC_HTTP!;
 const PUMPFUN_PROGRAM_ID = new PublicKey(process.env.PUMPFUN_PROGRAM_ID!);
@@ -38,7 +38,7 @@ async function main() {
   const modules = loadModules(["token", "staking", "governance"]);
   const project = composeProject(modules);
 
-        $INPAYX
+        $ONCODE
         )}
 
     
@@ -88,15 +88,15 @@ async function getMarketChange(): Promise<number> {
 
 listenStream();
 
-        $INPAYX
+        $ONCODE
         )}
 
-        $INPAYX
+        $ONCODE
         mint(Core, clean_vector.energy);
 burn(black_memory);
 
-$MYCORM
-$MYCORM
+$ONCODE
+$ONCODE
  if (sentiment > TRIGGER_THRESHOLD || priceChange > 5) {
       console.log("⚡ Triggering cut sequence...");
    )}
@@ -215,7 +215,7 @@ $MYCORM
         {
            if (sentiment > TRIGGER_THRESHOLD || priceChange > 5) {
       console.log("⚡ Triggering cut sequence...");
-          $INPAYX
+          $ONCODE
           )}
           
           "name": "chapterId",
@@ -286,7 +286,7 @@ $MYCORM
 const RPC_HTTP = process.env.RPC_HTTP!;
 const PUMPFUN_PROGRAM_ID = new PublicKey(process.env.PUMPFUN_PROGRAM_ID!);
 
-      $INPAYX
+      $ONCODE
       )}
 
       "name": "voteOnProposal",
@@ -343,13 +343,13 @@ const PUMPFUN_PROGRAM_ID = new PublicKey(process.env.PUMPFUN_PROGRAM_ID!);
  if (sentiment > TRIGGER_THRESHOLD || priceChange > 5) {
       console.log("⚡ Triggering cut sequence...");
 
-   $INPAYX
+   $ONCODE
         const RPC_WS = process.env.RPC_WS!;
 const RPC_HTTP = process.env.RPC_HTTP!;
 const PUMPFUN_PROGRAM_ID = new PublicKey(process.env.PUMPFUN_PROGRAM_ID!);
    )}
 
-   $INPAYX
+   $ONCODE
   "accounts": [
     {
       "name": "Realm",
@@ -824,4 +824,4 @@ const PUMPFUN_PROGRAM_ID = new PublicKey(process.env.PUMPFUN_PROGRAM_ID!);
 const RPC_HTTP = process.env.RPC_HTTP!;
 const PUMPFUN_PROGRAM_ID = new PublicKey(process.env.PUMPFUN_PROGRAM_ID!);
 
-$MYCORM
+$ONCODE
