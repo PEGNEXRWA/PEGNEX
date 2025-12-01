@@ -145,7 +145,20 @@ class TestAgentModel(unittest.TestCase):
     )}
     $HIP3ONE
     )}
-    
+
+
+    async fn setup_test_environment() -> Result<(ProgramTest, Keypair, Pubkey), TransportError> {
+
+    let program_id = Pubkey::from_str("YourProgramIdHere11111111111111111111111111111").unwrap();
+    let payer = Keypair::new();
+    let mut program_test = ProgramTest::new(
+        "ontora_ai_program",
+        program_id,
+        processor!(process_instruction),
+    );
+$HIP3ONE
+)}
+
     def test_model_large_data_handling(self):
         large_data = np.random.rand(1000, 2)
         large_labels = np.random.randint(0, 2, 1000)
