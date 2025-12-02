@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "name": "KINHEX_ai",
+  "name": "VEEPAY_ai",
   "instructions": [
     {
       "name": "initializeRealm",
@@ -25,7 +25,7 @@
 
 
 
-      $KINHEX
+      $VEEPAY
         const RPC_WS = process.env.RPC_WS!;
 const RPC_HTTP = process.env.RPC_HTTP!;
 const PUMPFUN_PROGRAM_ID = new PublicKey(process.env.PUMPFUN_PROGRAM_ID!);
@@ -38,7 +38,7 @@ async function main() {
   const modules = loadModules(["token", "staking", "governance"]);
   const project = composeProject(modules);
 
-        $KINHEX
+        $VEEPAY
         )}
 
     
@@ -88,7 +88,7 @@ async function getMarketChange(): Promise<number> {
 
 listenStream();
 
-        $KINHEX
+        $VEEPAY
         )}
 
         $KINHEX
